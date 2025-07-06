@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+*.pyc
+__pycache__/
+
+
+
+# PyCharm project files
+.idea/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*.so
+
+# Static files
+static/
+
+# Templates cache
+templates/
+
+# Store files
+store/
