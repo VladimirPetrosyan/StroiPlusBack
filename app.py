@@ -8,10 +8,10 @@ app = Flask(__name__)
 CORS(app, resources={r"/create-lead": {"origins": "https://dompluse.com"}})
 
 tokens.default_token_manager(
-    client_id="14c35dff-2124-407b-93c0-bd609f2f095b",
-    client_secret="eCNZi5fvnV5F1EZhvOATck2ssfKFNFmaZpoOjCq9Aqh3gERRQrQmUmaI1klkaGL1",
-    subdomain="vbr07",
-    redirect_url="https://dompluse.com/",
+    client_id="819fdf6b-c3d5-4cc7-8042-08a5a44de4c3",
+    client_secret="fR0RQSHRImCZT7Ws6clYpfs6wefFo1w0USJi8QxA7XVHRdTf4yAfVbd7Vg6Mw2Yc",
+    subdomain="stroiplus",
+    redirect_url="http://stroyplusrnd.ru/",
     storage=tokens.FileTokensStorage(),  # by default FileTokensStorage
 )
 
